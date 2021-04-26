@@ -1,0 +1,549 @@
+﻿{
+  "Info": {
+    "DeviceId": 59
+  },
+  "Background": {
+    "Preview": [
+      {
+        "LangCode": "All",
+        "ImageSet": {
+          "ImageIndex": 1,
+          "ImagesCount": 1
+        }
+      }
+    ],
+    "BackgroundImageIndex": 2
+  },
+  "DialFace": {
+    "DigitalDialFace": {
+      "Digits": [
+        {
+          "TimeType": "Hour",
+          "CombingMode": "Single",
+          "Digit": {
+            "Image": {
+              "X": 70,
+              "Y": 195,
+              "MultilangImage": [
+                {
+                  "LangCode": "All",
+                  "ImageSet": {
+                    "ImageIndex": 3,
+                    "ImagesCount": 10
+                  }
+                }
+              ]
+            },
+            "Alignment": "Left",
+            "Spacing": 4,
+            "PaddingZero": true,
+            "DisplayFormAnalog": false
+          }
+        },
+        {
+          "TimeType": "Minute",
+          "CombingMode": "Single",
+          "Digit": {
+            "Image": {
+              "X": 188,
+              "Y": 195,
+              "MultilangImage": [
+                {
+                  "LangCode": "All",
+                  "ImageSet": {
+                    "ImageIndex": 3,
+                    "ImagesCount": 10
+                  }
+                }
+              ]
+            },
+            "Alignment": "Left",
+            "Spacing": 4,
+            "PaddingZero": false,
+            "DisplayFormAnalog": false
+          }
+        },
+        {
+          "TimeType": "Second",
+          "CombingMode": "Single",
+          "Digit": {
+            "Image": {
+              "X": 310,
+              "Y": 195,
+              "MultilangImage": [
+                {
+                  "LangCode": "All",
+                  "ImageSet": {
+                    "ImageIndex": 3,
+                    "ImagesCount": 10
+                  }
+                }
+              ]
+            },
+            "Alignment": "Left",
+            "Spacing": 4,
+            "PaddingZero": false,
+            "DisplayFormAnalog": false
+          }
+        }
+      ],
+      "AM": {
+        "Coordinates": {
+          "X": 184,
+          "Y": 274
+        },
+        "ImageSet": [
+          {
+            "LangCode": "All",
+            "ImageSet": {
+              "ImageIndex": 91,
+              "ImagesCount": 1
+            }
+          }
+        ]
+      },
+      "PM": {
+        "Coordinates": {
+          "X": 184,
+          "Y": 274
+        },
+        "ImageSet": [
+          {
+            "LangCode": "All",
+            "ImageSet": {
+              "ImageIndex": 92,
+              "ImagesCount": 1
+            }
+          }
+        ]
+      }
+    }
+  },
+  "System": {
+    "Status": {
+      "Bluetooth": {
+        "Coordinates": {
+          "X": 148,
+          "Y": 319
+        },
+        "ImageIndex": 88
+      },
+      "DoNotDisturb": {
+        "Coordinates": {
+          "X": 258,
+          "Y": 319
+        },
+        "ImageIndex": 89
+      },
+      "Lock": {
+        "Coordinates": {
+          "X": 68,
+          "Y": 319
+        },
+        "ImageIndex": 90
+      },
+      "Alarm": {
+        "Coordinates": {
+          "X": 339,
+          "Y": 319
+        },
+        "ImageIndex": 87
+      }
+    },
+    "Date": {
+      "DateDigits": [
+        {
+          "DateType": "Day",
+          "CombingMode": "Single",
+          "Digit": {
+            "Image": {
+              "X": 205,
+              "Y": 50,
+              "MultilangImage": [
+                {
+                  "LangCode": "All",
+                  "ImageSet": {
+                    "ImageIndex": 16,
+                    "ImagesCount": 10
+                  }
+                }
+              ]
+            },
+            "Alignment": "Center",
+            "Spacing": 2,
+            "PaddingZero": true,
+            "DisplayFormAnalog": false
+          }
+        }
+      ],
+      "WeeksDigits": {
+        "CombingMode": "Single",
+        "Digit": {
+          "Image": {
+            "X": 188,
+            "Y": 96,
+            "MultilangImage": [
+              {
+                "LangCode": "All",
+                "ImageSet": {
+                  "ImageIndex": 43,
+                  "ImagesCount": 7
+                }
+              }
+            ]
+          },
+          "PaddingZero": false,
+          "DisplayFormAnalog": true
+        }
+      },
+      "DateClockHand": {
+        "MonthClockHand": {
+          "X": 226,
+          "Y": 92,
+          "Pointer": {
+            "Coordinates": {
+              "X": 27,
+              "Y": 97
+            },
+            "ImageIndex": 32
+          },
+          "StartAngle": 30.0,
+          "EndAngle": 360.0
+        }
+      }
+    },
+    "Activity": [
+      {
+        "Type": "Battery",
+        "ProgressBar": {
+          "AngleSettings": {
+            "X": 227,
+            "Y": 227,
+            "StartAngle": -47.0,
+            "EndAngle": -95.0,
+            "Radius": 195.0
+          },
+          "ForegroundImageIndex": 33,
+          "Width": 64,
+          "Flatness": 180
+        },
+        "Digits": [
+          {
+            "CombingMode": "Single",
+            "Digit": {
+              "Image": {
+                "X": 35,
+                "Y": 272,
+                "NoDataImageIndex": 42,
+                "MultilangImage": [
+                  {
+                    "LangCode": "All",
+                    "ImageSet": {
+                      "ImageIndex": 16,
+                      "ImagesCount": 10
+                    }
+                  }
+                ],
+                "MultilangImageUnit": [
+                  {
+                    "LangCode": "All",
+                    "ImageSet": {
+                      "ImageIndex": 41,
+                      "ImagesCount": 1
+                    }
+                  }
+                ]
+              },
+              "Alignment": "Left",
+              "Spacing": 2,
+              "PaddingZero": false,
+              "DisplayFormAnalog": false
+            },
+            "Separator": {
+              "Coordinates": {
+                "X": 80,
+                "Y": 47
+              },
+              "ImageIndex": 36
+            }
+          }
+        ]
+      },
+      {
+        "Type": "Steps",
+        "ProgressBar": {
+          "AngleSettings": {
+            "X": 227,
+            "Y": 227,
+            "StartAngle": 46.0,
+            "EndAngle": 95.0,
+            "Radius": 195.0
+          },
+          "ForegroundImageIndex": 33,
+          "Width": 64,
+          "Flatness": 180
+        },
+        "Digits": [
+          {
+            "CombingMode": "Single",
+            "Digit": {
+              "Image": {
+                "X": 305,
+                "Y": 272,
+                "NoDataImageIndex": 42,
+                "MultilangImage": [
+                  {
+                    "LangCode": "All",
+                    "ImageSet": {
+                      "ImageIndex": 16,
+                      "ImagesCount": 10
+                    }
+                  }
+                ]
+              },
+              "Alignment": "Right",
+              "Spacing": 2,
+              "PaddingZero": false,
+              "DisplayFormAnalog": false
+            },
+            "Separator": {
+              "Coordinates": {
+                "X": 324,
+                "Y": 47
+              },
+              "ImageIndex": 37
+            }
+          }
+        ]
+      },
+      {
+        "Type": "HeartRate",
+        "ImageProgress": {
+          "Coordinates": [
+            {
+              "X": 0,
+              "Y": 0
+            }
+          ],
+          "ImageSet": {
+            "ImageIndex": 26,
+            "ImagesCount": 6
+          }
+        },
+        "Digits": [
+          {
+            "CombingMode": "Single",
+            "Digit": {
+              "Image": {
+                "X": 193,
+                "Y": 385,
+                "NoDataImageIndex": 42,
+                "MultilangImage": [
+                  {
+                    "LangCode": "All",
+                    "ImageSet": {
+                      "ImageIndex": 16,
+                      "ImagesCount": 10
+                    }
+                  }
+                ]
+              },
+              "Alignment": "Center",
+              "Spacing": 2,
+              "PaddingZero": false,
+              "DisplayFormAnalog": false
+            },
+            "Separator": {
+              "Coordinates": {
+                "X": 203,
+                "Y": 330
+              },
+              "ImageIndex": 34
+            }
+          }
+        ]
+      },
+      {
+        "Type": "Weather",
+        "ImageProgress": {
+          "Coordinates": [
+            {
+              "X": 60,
+              "Y": 130
+            }
+          ],
+          "ImageSet": {
+            "ImageIndex": 57,
+            "ImagesCount": 29
+          }
+        },
+        "Digits": [
+          {
+            "CombingMode": "Single",
+            "Digit": {
+              "Image": {
+                "X": 322,
+                "Y": 145,
+                "NoDataImageIndex": 42,
+                "MultilangImage": [
+                  {
+                    "LangCode": "All",
+                    "ImageSet": {
+                      "ImageIndex": 16,
+                      "ImagesCount": 10
+                    }
+                  }
+                ],
+                "MultilangImageUnit": [
+                  {
+                    "LangCode": "All",
+                    "ImageSet": {
+                      "ImageIndex": 39,
+                      "ImagesCount": 1
+                    }
+                  }
+                ],
+                "DelimiterImageIndex": 38
+              },
+              "Alignment": "Left",
+              "Spacing": 2,
+              "PaddingZero": false,
+              "DisplayFormAnalog": false
+            }
+          }
+        ]
+      }
+    ]
+  },
+  "ScreenIdle": {
+    "DialFace": {
+      "DigitalDialFace": {
+        "Digits": [
+          {
+            "TimeType": "Hour",
+            "CombingMode": "Single",
+            "Digit": {
+              "Image": {
+                "X": 70,
+                "Y": 195,
+                "MultilangImage": [
+                  {
+                    "LangCode": "All",
+                    "ImageSet": {
+                      "ImageIndex": 3,
+                      "ImagesCount": 10
+                    }
+                  }
+                ]
+              },
+              "Alignment": "Left",
+              "Spacing": 4,
+              "PaddingZero": true,
+              "DisplayFormAnalog": false
+            }
+          },
+          {
+            "TimeType": "Minute",
+            "CombingMode": "Single",
+            "Digit": {
+              "Image": {
+                "X": 188,
+                "Y": 195,
+                "MultilangImage": [
+                  {
+                    "LangCode": "All",
+                    "ImageSet": {
+                      "ImageIndex": 3,
+                      "ImagesCount": 10
+                    }
+                  }
+                ]
+              },
+              "Alignment": "Left",
+              "Spacing": 4,
+              "PaddingZero": false,
+              "DisplayFormAnalog": false
+            }
+          }
+        ],
+        "AM": {
+          "Coordinates": {
+            "X": 124,
+            "Y": 160
+          },
+          "ImageSet": [
+            {
+              "LangCode": "All",
+              "ImageSet": {
+                "ImageIndex": 91,
+                "ImagesCount": 1
+              }
+            }
+          ]
+        },
+        "PM": {
+          "Coordinates": {
+            "X": 124,
+            "Y": 160
+          },
+          "ImageSet": [
+            {
+              "LangCode": "All",
+              "ImageSet": {
+                "ImageIndex": 92,
+                "ImagesCount": 1
+              }
+            }
+          ]
+        }
+      }
+    },
+    "Activity": [
+      {
+        "Type": "Battery",
+        "Digits": [
+          {
+            "CombingMode": "Single",
+            "Digit": {
+              "Image": {
+                "X": 128,
+                "Y": 272,
+                "NoDataImageIndex": 42,
+                "MultilangImage": [
+                  {
+                    "LangCode": "All",
+                    "ImageSet": {
+                      "ImageIndex": 16,
+                      "ImagesCount": 10
+                    }
+                  }
+                ],
+                "MultilangImageUnit": [
+                  {
+                    "LangCode": "All",
+                    "ImageSet": {
+                      "ImageIndex": 41,
+                      "ImagesCount": 1
+                    }
+                  }
+                ]
+              },
+              "Alignment": "Center",
+              "Spacing": 2,
+              "PaddingZero": false,
+              "DisplayFormAnalog": false
+            },
+            "Separator": {
+              "Coordinates": {
+                "X": 84,
+                "Y": 255
+              },
+              "ImageIndex": 36
+            }
+          }
+        ]
+      }
+    ],
+    "BackgroundImageIndex": 86
+  }
+}
